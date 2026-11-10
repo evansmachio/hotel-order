@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#183d2b">
+
+    <title>The Green Spoon | Digital Menu</title>
+
+    <meta name="description"
+          content="Explore delicious meals and order from The Green Spoon restaurant.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Restaurant Header -->
+    <header class="header">
+        <div class="container nav">
+
+            <a href="#" class="brand">
+                <div class="logo">GS</div>
+
+                <div>
+                    <h1>The Green Spoon</h1>
+                    <span>FRESH FOOD, HAPPY MOOD</span>
+                </div>
+            </a>
+
+            <a href="#menu" class="nav-button">
+                View Menu
+            </a>
+
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+
+            <span class="eyebrow">
+                WELCOME TO THE GREEN SPOON
+            </span>
+
+            <h2>Good Food.<br>
+                Good Moments.</h2>
+
+            <p>
+                Freshly prepared meals, delicious flavours
+                and unforgettable experiences.
+            </p>
+
+            <a href="#menu" class="primary-button">
+                Explore Our Menu
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- Menu Section -->
+    <main class="container menu-section" id="menu">
+
+        <div class="section-heading">
+            <span class="eyebrow">MADE WITH LOVE</span>
+
+            <h2>Our Delicious Menu</h2>
+
+            <p>
+                Choose your favourite meal and order directly
+                through WhatsApp.
+            </p>
+        </div>
+
+
+        <!-- Category Filters -->
+        <div class="filters" id="categoryFilters">
+
+            <button class="filter-btn active"
+                    data-category="All">
+                All Items
+            </button>
+
+            <button class="filter-btn"
+                    data-category="Main Meals">
+                Main Meals
+            </button>
+
+            <button class="filter-btn"
+                    data-category="Fast Food">
+                Fast Food
+            </button>
+
+            <button class="filter-btn"
+                    data-category="Drinks">
+                Drinks
+            </button>
+
+            <button class="filter-btn"
+                    data-category="Desserts">
+                Desserts
+            </button>
+
+        </div>
+
+
+        <!-- Food Products -->
+        <div class="menu-grid" id="menuGrid">
+            <!-- JavaScript loads menu items here -->
+        </div>
+
+    </main>
+
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container about-content">
+
+            <span class="eyebrow">OUR PROMISE</span>
+
+            <h2>Fresh Ingredients.<br>
+                Exceptional Taste.</h2>
+
+            <p>
+                At The Green Spoon, we believe great food brings
+                people together. Every meal is prepared with
+                care, passion and fresh ingredients.
+            </p>
+
+            <a href="#menu" class="primary-button">
+                Find Your Favourite
+            </a>
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <div>
+                <h2>The Green Spoon</h2>
+                <p>Fresh food, happy mood.</p>
+            </div>
+
+            <div>
+                <p>Opening Hours</p>
+                <span>Monday - Sunday: 8 AM - 10 PM</span>
+            </div>
+
+            <div>
+                <p>Contact</p>
+                <span>Order through WhatsApp</span>
+            </div>
+
+        </div>
+
+        <div class="copyright">
+            &copy; <span id="currentYear"></span>
+            The Green Spoon. All rights reserved.
+        </div>
+
+    </footer>
+
+
+    <script src="app.js"></script>
+
+</body>
+</html>
