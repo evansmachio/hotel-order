@@ -28,7 +28,7 @@ const menuItems = [
         category: "Main Meals",
         description: "Delicious spiced rice served with tender beef.",
         price: 350,
-        image: "images/image1.avif"
+        image: "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=700&q=75"
     },
 
     {
@@ -37,7 +37,7 @@ const menuItems = [
         category: "Main Meals",
         description: "Aromatic rice with perfectly seasoned chicken.",
         price: 450,
-        image: "images/chicken.avif"
+        image: "https://unsplash.com/photos/a-black-bowl-filled-with-food-on-top-of-a-table-OT-Wlz2Mn7w"
     },
 
     {
